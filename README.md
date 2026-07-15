@@ -159,7 +159,7 @@ Cette approche améliore également l'interprétabilité du modèle, un aspect e
 
 ---
 
-# 📂 Structure du projet
+# 📂 Structure du projet ( N'es pas a jour)
 
 ```
 📦 Breast-Cancer-Classification
