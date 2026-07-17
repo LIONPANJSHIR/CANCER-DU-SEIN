@@ -106,12 +106,11 @@ L'analyse exploratoire met en évidence plusieurs caractéristiques :
 <!-- Capture à réaliser : sortie de la cellule 18, sous « Comparaison des distributions en fonction de la médiane ». Page PDF : [À compléter après export ; le notebook .ipynb ne possède pas de pagination fixe]. -->
 ![Distributions standardisées des variables selon le diagnostic](assets/images/feature_distributions_by_class.png)
 
-> 📸 **Capture recommandée :** exporter la figure « Distribution des Features par Blocs (Violin Plots) » de la cellule 18. Elle montre la séparabilité variable des deux classes selon les caractéristiques. Enregistrer l'image sous `assets/images/feature_distributions_by_class.png`.
 
 <!-- Capture à réaliser : sortie de la cellule 29, section « Corrélation ». Page PDF : [À compléter après export]. -->
 ![Matrice de corrélation des variables](assets/images/correlation_matrix.png)
 
-> 📸 **Capture recommandée :** exporter la matrice de corrélation de la cellule 29. Elle justifie la réduction des variables redondantes. Enregistrer l'image sous `assets/images/correlation_matrix.png`.
+
 
 ## Déséquilibre des classes
 
@@ -316,8 +315,8 @@ Structure actuelle et fichiers recommandés pour la publication :
 .
 ├── Breast_cancer.ipynb
 ├── README.md
-├── requirements.txt                 # [À créer]
-├── LICENSE                          # [À choisir]
+├── requirements.txt                 
+├── LICENSE                          
 └── assets/
     └── images/
         ├── class_distribution.png
