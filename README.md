@@ -128,7 +128,6 @@ Aucun sur-échantillonnage de type SMOTE ni sous-échantillonnage n'est appliqu�
 <!-- Capture à réaliser : sortie de la cellule 10, graphique « Répartition des classes ». Page PDF : [À compléter après export]. -->
 ![Répartition de la variable cible](assets/images/class_distribution.png)
 
-> 📸 **Capture recommandée :** exporter le graphique de la cellule 10 présentant 212 tumeurs malignes et 357 tumeurs bénignes. Cette figure motive l'utilisation de métriques équilibrées. Enregistrer l'image sous `assets/images/class_distribution.png`.
 
 ## Prétraitement et sélection des variables
 
