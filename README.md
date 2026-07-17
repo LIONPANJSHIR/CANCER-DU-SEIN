@@ -154,10 +154,9 @@ Aucun sur-échantillonnage de type SMOTE ni sous-échantillonnage n'est appliqu�
 4. **RFECV avec Random Forest**  
    La sélection récursive avec validation croisée retient 15 variables. Le modèle associé atteint une accuracy moyenne de 0,9648 ± 0,0128 en validation croisée.
 
-<!-- Capture à réaliser : sortie de la cellule 56, graphique « RFECV — RandomForest (Stratified K-fold) ». Page PDF : [À compléter après export]. -->
+
 ![Sélection du nombre de variables par RFECV](assets/images/rfecv_feature_selection.png)
 
-> 📸 **Capture recommandée :** exporter la courbe RFECV de la cellule 56. Elle montre que le meilleur score observé est atteint avec 15 variables. Enregistrer l'image sous `assets/images/rfecv_feature_selection.png`.
 
 ### Variables retenues pour le modèle final
 
@@ -248,10 +247,7 @@ La matrice de confusion est :
 
 Le modèle classe correctement 109 observations sur 114. Deux tumeurs malignes sont prédites comme bénignes, une erreur particulièrement importante dans le contexte métier et qui justifie une réflexion future sur le seuil de décision.
 
-<!-- Capture à réaliser : sortie de la cellule 93, matrice de confusion du jeu de test. Page PDF : [À compléter après export]. -->
 ![Matrice de confusion du modèle final](assets/images/confusion_matrix.png)
-
-> 📸 **Capture recommandée :** exporter la matrice de confusion de la cellule 93. Elle rend immédiatement visibles les cinq erreurs de classification. Enregistrer l'image sous `assets/images/confusion_matrix.png`.
 
 ## Interprétation métier et limites
 
@@ -267,10 +263,9 @@ L'importance Gini du modèle final place en tête :
 
 Le modèle s'appuie donc principalement sur des indicateurs liés à la taille et à l'irrégularité des contours cellulaires. Ces importances mesurent la contribution des variables aux divisions des arbres ; elles n'indiquent ni le sens de l'effet ni une relation causale.
 
-<!-- Capture à réaliser : sortie de la cellule 85, graphique « Top 10 variables importantes — Random Forest (BayesSearchCV) ». Page PDF : [À compléter après export]. -->
+
 ![Importance des variables du modèle final](assets/images/feature_importance.png)
 
-> 📸 **Capture recommandée :** exporter le graphique d'importance des variables de la cellule 85. Il rend le modèle plus interprétable et justifie le choix d'un sous-ensemble réduit. Enregistrer l'image sous `assets/images/feature_importance.png`.
 
 ### Limites
 
@@ -397,13 +392,9 @@ Le dataset est chargé directement depuis `scikit-learn` : aucun fichier CSV ext
 
 **Ly Amadou** — Data Scientist junior
 
-- GitHub : [À compléter]
-- LinkedIn : [À compléter]
-- E-mail : [À compléter]
+- LinkedIn : https://www.linkedin.com/in/%F0%9F%87%B2%F0%9F%87%B7amadou-ly-b7431b339/
+- E-mail : amzoly.lionpanjshir@gmail.com
 
-## Licence
-
-Licence du projet : **[À compléter]**.
 
 ---
 
