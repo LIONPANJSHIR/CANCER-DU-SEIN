@@ -108,7 +108,7 @@ L'analyse exploratoire met en évidence plusieurs caractéristiques :
 
 
 <!-- Capture à réaliser : sortie de la cellule 29, section « Corrélation ». Page PDF : [À compléter après export]. -->
-![Matrice de corrélation des variables](assets/images/correlation_matrix.png)
+![Matrice de corrélation des variables](assets/images/correlation.png)
 
 
 
